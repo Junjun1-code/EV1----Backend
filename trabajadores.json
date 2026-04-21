@@ -1,0 +1,16 @@
+[
+    {
+        "rut": "21.321.581-5",
+        "Nombre": "Manuel",
+        "Edad": 53,
+        "Profesion": "Conserje",
+        "Jornada": "Diurno"
+    },
+    {
+        "rut": "20.221.361-K",
+        "Nombre": "Anita",
+        "Edad": 42,
+        "Profesion": "Gerente",
+        "Jornada": "Diurno"
+    }
+]
