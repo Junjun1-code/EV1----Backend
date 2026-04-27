@@ -18,6 +18,13 @@ app.get("/trabajadores", (req, res) => {
     res.send('Mostrando datos de trabajadores')
 })
 
+app.get("/productos/:id", (req, res) => {
+const { id } = req.params
+const data = JSON.parse(fs.readFileSync("trabajadores.json")) 
+const trabajador = data.find (p => p.id == id);
+res.json(trabajador)
+});
+
 app.post("/trabajadores", (req, res) =>{
     dato = req.body
     datos = JSON.parse(fs.readFileSync("trabajadores.json"))
